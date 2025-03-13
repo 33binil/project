@@ -24,22 +24,26 @@ const Hero = () => {
                 <div className="absolute left-0 top-0 z-40 size-full">
                     <div className="mt-28 px-5 sm:px-10">
                         {/* Main Title */}
-                        <AnimatedTitle
-                            title="PI<b>X</b>EL JU<b>N</b>KIE crea<b>t</b>ive STU<b>D</b>IO"
-                            containerClass="mt-5-xl !text-white text-center"
-                        />
+                        <div className="w-full flex justify-center">
+                            <AnimatedTitle
+                                title="PI<b>X</b>EL JU<b>N</b>KIE crea<b>t</b>ive STU<b>D</b>IO"
+                                containerClass="text-center mt max-w mx-auto text-[14px] sm:text-4xl md:text-4xl lg:text-6xl xl:text-8xl"
+                            />
+                        </div>
+
+
 
                         {/* Sub Title (Bottom of Page) */}
                         <div className="absolute bottom-10 left-0 w-full flex justify-center">
                             <AnimatedTitle
                                 title="sta<b>r</b>tup Sol<b>u</b>tions"
-                                containerClass="text-white text-center"
+                                containerClass="text-center mt-3 max-w mx-auto text-[14px] sm:text-4xl md:text-4xl lg:text-6xl xl:text-8xl"
                             />
                         </div>
 
                         {/* Description */}
                         <Animate animation="fade-up" duration={1.5}>
-                            <p className="mb-5 max-w mx-auto text-center font-robert-regular text-blue-100">
+                            <p className="mb-5 max-w mx-auto text-center font-robert-regular text-[13px] sm:text-sm md:text-lg lg:text-[18px] xl:text-xl text-blue-100">
                                 At Pixel Junkie Creative Studios, we’re on a mission to help businesses like yours grow, thrive, and make a lasting impact.<br />
                                 With our expertise in branding, graphic design, digital marketing, and web development, we’re here to turn your vision into reality.<br />
                                 Every project is an opportunity to learn, create, and evolve, and we’re committed to taking your brand to the next level as we grow together...

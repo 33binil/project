@@ -53,7 +53,7 @@ const FloatingImage = () => {
             />
 
             {/* ✅ Video Container (without border) */}
-            <div className="relative mt-10 w-[80vw] max-w-[800px] h-[450px] rounded-lg overflow-hidden">
+            <div className="relative mt-10 w-[90vw] max-w-[800px] h-[50vw] max-h-[450px] sm:h-[350px] md:h-[400px] lg:h-[450px] rounded-lg overflow-hidden">
                 <video
                     ref={frameRef}
                     onMouseMove={handleMouseMove}
@@ -67,6 +67,7 @@ const FloatingImage = () => {
                     className="w-full h-full object-cover"
                 />
             </div>
+
 
             <div className="mt-5 max-w-sm text-center font-circular-web text-violet-50">
                 <p>

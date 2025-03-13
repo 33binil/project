@@ -38,9 +38,9 @@ const About = () => {
                     containerClass="mt-5 !text-black text-center"
                 />
 
-                <div className="about-subtext">
-                    <p>Turn your Vision into Reality--The Ultimate Startup Quest Begins.</p>
-                    <p className="text-gray-500">
+                <div className="about-subtext ">
+                    <p className="text-[14px] sm:text-lg md:text-xl lg:text-xl xl:text-xl">Turn your Vision into Reality--The Ultimate Startup Quest Begins.</p>
+                    <p className="text-gray-500 text-[14px] sm:text-lg md:text-xl lg:text-xl xl:text-xl" >
                         Pixel Junkie Creative Studio--Empoweing Startups, Elevating Brands, and Crafting Digital Excellence.
                     </p>
                 </div>

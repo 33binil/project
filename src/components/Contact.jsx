@@ -22,13 +22,13 @@ const Contact = () => {
                     />
                 </div>
 
-                <div className="absolute -top-40 left-20 w-60 sm:top-1/2 md:left-auto md:right-10 lg:top-20 lg:w-80">
+                <div className="absolute -top-44 left-20 w-60 sm:top-1/2 md:left-auto md:right-10 lg:top-20 lg:w-80 hidden sm:block">
                     <ImageClipBox
                         src="/img/swordman-partial.webp"
                         clipClass="absolute md:scale-125"
                     />
-
                 </div>
+
 
                 <div className="flex flex-col items-center text-center">
                     <p className="mb-10 font-general text-[10px] uppercase">

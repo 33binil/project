@@ -22,26 +22,21 @@ const Contact = () => {
                     />
                 </div>
 
-                <div className="absolute -top-44 left-20 w-60 sm:top-1/2 md:left-auto md:right-10 lg:top-20 lg:w-80 hidden sm:block">
-                    <ImageClipBox
-                        src="/img/swordman-partial.webp"
-                        clipClass="absolute md:scale-125"
-                    />
-                </div>
 
 
                 <div className="flex flex-col items-center text-center">
-                    <p className="mb-10 font-general text-[10px] uppercase">
-                        Join Pixel junkie
-                    </p>
-
                     <AnimatedTitle
-                        title="Launching the next generation of bussiness."
+                        title="Have an idea? A business? A vision? We turn ambitions into empires."
                         className="special-font !md:text-[6.2rem] w-full font-zentry !text-5xl !font-black !leading-[.9]"
                     />
 
-                    <Button title="contact us" containerClass="mt-10 cursor-pointer" />
+                    <p className="mb-4 mt-20 font-general text-[12px] uppercase">
+                        Fill out the form below and let’s create something legendary.
+                    </p>
+
+                    <Button title="Get in Touch" containerClass="mt-10 cursor-pointer" />
                 </div>
+
             </div>
         </div>
     );

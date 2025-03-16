@@ -43,33 +43,119 @@ const Features = () => {
     const features = [
         {
             src: "/videos/feature-1.mp4",
-            title: "Brand Identity",
+            title: "Branding & Identity",
             description:
-                "Pixel Junkie Studio shapes powerful brand identities that leave a lasting impression. From logos to visual storytelling, we craft unique, cohesive designs that define your brand and connect with your audience.",
-        },
-        {
-            src: "/videos/feature-2.mp4",
-            title: "Social Media Video Production",
-            description:
-                "Pixel Junkie Studio creates compelling advertisements and engaging social media videos to elevate your brand’s online presence. From concept to execution, we craft visually stunning content that captures attention, boosts engagement, and drives business growth across all digital platforms.",
+                <div className="flex flex-col items-start justify-center h-full text-left space-y-6">
+                    <p className="text-[14px] sm:text-lg md:text-xl lg:text-xl xl:text-xl">
+                        <strong>- Unforgettable Logos & Brand Strategy</strong>
+                    </p>
+                    <p className="text-[14px] sm:text-lg md:text-xl lg:text-xl xl:text-xl">
+                        <strong>- Visual Identity & Market Positioning</strong>
+                    </p>
+                    <p className="text-[14px] sm:text-lg md:text-xl lg:text-xl xl:text-xl">
+                        <strong>- Corporate & Product Branding</strong>
+                    </p>
+                    <p className="text-[14px] sm:text-lg md:text-xl lg:text-xl xl:text-xl">
+                        <strong>- Packaging & Merchandise Design</strong>
+                    </p>
+                </div>
+
+
         },
         {
             src: "/videos/feature-3.mp4",
-            title: "Website Development",
+            title: "Web Design & Development",
             description:
-                "Pixel Junkie Studio specializes in crafting dynamic, user-friendly websites that elevate brands and drive success. From sleek designs to seamless functionality, we transform ideas into digital experiences that engage and inspire.",
-        },
-        {
-            src: "/videos/feature-4.mp4",
-            title: "Brand Activation / Strategy",
-            description:
-                "Pixel Junkie Studio transforms ideas into impactful brand experiences. Through strategic planning, innovative campaigns, and immersive activations, we connect your brand with the right audience, driving engagement and long-term loyalty.",
+                <div className="flex flex-col items-start justify-center h-full text-left space-y-6">
+                    <p className="text-[14px] sm:text-lg md:text-xl lg:text-xl xl:text-xl">
+                        <strong>- High-Performance Websites & eCommerce</strong>
+                    </p>
+                    <p className="text-[14px] sm:text-lg md:text-xl lg:text-xl xl:text-xl">
+                        <strong>- UI/UX & Interactive Web Experiences</strong>
+                    </p>
+                    <p className="text-[14px] sm:text-lg md:text-xl lg:text-xl xl:text-xl">
+                        <strong>- No-Code & Custom Development</strong>
+                    </p>
+                    <p className="text-[14px] sm:text-lg md:text-xl lg:text-xl xl:text-xl">
+                        <strong>- Website Maintenance & Optimization</strong>
+                    </p>
+                </div>
         },
         {
             src: "/videos/feature-5.mp4",
-            title: "Digital Marketing",
+            title: "Digital Marketing & Strategy",
             description:
-                "Pixel Junkie Studio helps businesses grow with data-driven digital marketing strategies. From SEO and social media marketing to targeted ad campaigns, we optimize your brand’s online presence, ensuring maximum reach, engagement, and conversion.",
+                <div className="flex flex-col items-start justify-center h-full text-left space-y-6">
+                    <p className="text-[14px] sm:text-lg md:text-xl lg:text-xl xl:text-xl">
+                        <strong>- Social Media Domination & Growth Hacking</strong>
+                    </p>
+                    <p className="text-[14px] sm:text-lg md:text-xl lg:text-xl xl:text-xl">
+                        <strong>- High-Conversion Ads (Google, Meta, LinkedIn, TikTok)</strong>
+                    </p>
+                    <p className="text-[14px] sm:text-lg md:text-xl lg:text-xl xl:text-xl">
+                        <strong>- SEO & Content Marketing that Delivers</strong>
+                    </p>
+                    <p className="text-[14px] sm:text-lg md:text-xl lg:text-xl xl:text-xl">
+                        <strong>- Email & Influencer Marketing That Sells</strong>
+                    </p>
+                </div>
+        },
+        {
+            src: "/videos/",
+            title: "App Development",
+            description:
+                <div className="flex flex-col items-start justify-center h-full text-left space-y-6">
+                    <p className="text-[14px] sm:text-lg md:text-xl lg:text-xl xl:text-xl">
+                        <strong>- iOS & Android Mobile App Development</strong>
+                    </p>
+                    <p className="text-[14px] sm:text-lg md:text-xl lg:text-xl xl:text-xl">
+                        <strong>- Cross-Platform & Native Applications</strong>
+                    </p>
+                    <p className="text-[14px] sm:text-lg md:text-xl lg:text-xl xl:text-xl">
+                        <strong>- SaaS & AI-Powered Business Tools</strong>
+                    </p>
+                    <p className="text-[14px] sm:text-lg md:text-xl lg:text-xl xl:text-xl">
+                        <strong>- AR, VR & Metaverse Development</strong>
+                    </p>
+                </div>
+        },
+        {
+            src: "/videos/feature-2.mp4",
+            title: "Video Production & Motion Graphics",
+            description:
+                <div className="flex flex-col items-start justify-center h-full text-left space-y-6">
+                    <p className="text-[14px] sm:text-lg md:text-xl lg:text-xl xl:text-xl">
+                        <strong>- High-End Commercials & Brand Films</strong>
+                    </p>
+                    <p className="text-[14px] sm:text-lg md:text-xl lg:text-xl xl:text-xl">
+                        <strong>- Motion Graphics & Animated Explainers</strong>
+                    </p>
+                    <p className="text-[14px] sm:text-lg md:text-xl lg:text-xl xl:text-xl">
+                        <strong>- Social Media Video Content & Ads</strong>
+                    </p>
+                    <p className="text-[14px] sm:text-lg md:text-xl lg:text-xl xl:text-xl">
+                        <strong>- 3D Animation & Visual Effects (VFX)</strong>
+                    </p>
+                </div>
+        },
+        {
+            src: "/videos/feature-4.mp4",
+            title: "Business Consulting & Scaling Solutions",
+            description:
+                <div className="flex flex-col items-start justify-center h-full text-left space-y-6">
+                    <p className="text-[14px] sm:text-lg md:text-xl lg:text-xl xl:text-xl">
+                        <strong>- Startup & Growth Acceleration Strategies</strong>
+                    </p>
+                    <p className="text-[14px] sm:text-lg md:text-xl lg:text-xl xl:text-xl">
+                        <strong>- Investor Pitch Decks & Business Plans</strong>
+                    </p>
+                    <p className="text-[14px] sm:text-lg md:text-xl lg:text-xl xl:text-xl">
+                        <strong>- Franchise & Expansion Mastery</strong>
+                    </p>
+                    <p className="text-[14px] sm:text-lg md:text-xl lg:text-xl xl:text-xl">
+                        <strong>- B2B & B2C Market Domination Strategies</strong>
+                    </p>
+                </div>
         },
     ];
 

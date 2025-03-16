@@ -34,16 +34,28 @@ const About = () => {
                 </p>
 
                 <AnimatedTitle
-                    title="empoweri<b>n</b>g st<b>a</b>rtups, ele<b>v</b>ating br<b>a</b>nds"
+                    title="W<b>h</b>y C<b>h</b>oose Pix<b>e</b>l Ju<b>n</b>kie?"
                     containerClass="mt-5 !text-black text-center"
                 />
 
-                <div className="about-subtext ">
-                    <p className="text-[14px] sm:text-lg md:text-xl lg:text-xl xl:text-xl">Turn your Vision into Reality--The Ultimate Startup Quest Begins.</p>
-                    <p className="text-gray-500 text-[14px] sm:text-lg md:text-xl lg:text-xl xl:text-xl" >
-                        Pixel Junkie Creative Studio--Empoweing Startups, Elevating Brands, and Crafting Digital Excellence.
+                <div className="flex flex-col items-center justify-center h-full text-center space-y-3">
+                    <p className="text-[14px] sm:text-lg md:text-xl lg:text-xl xl:text-xl">
+                        <strong>We Create Market Leaders</strong>: Not just brands. Not just businesses. We craft legends.
+                    </p>
+                    <p className="text-[14px] sm:text-lg md:text-xl lg:text-xl xl:text-xl">
+                        <strong>All-in-One Growth Powerhouse</strong>: Branding, marketing, web, design, development—we master it all.
+                    </p>
+                    <p className="text-[14px] sm:text-lg md:text-xl lg:text-xl xl:text-xl">
+                        <strong>Innovation at Its Core</strong>: We don’t follow trends—we define them.
+                    </p>
+                    <p className="text-[14px] sm:text-lg md:text-xl lg:text-xl xl:text-xl">
+                        <strong>Precision Meets Passion</strong>: Every project is executed with relentless excellence.
+                    </p>
+                    <p className="text-[14px] sm:text-lg md:text-xl lg:text-xl xl:text-xl">
+                        <strong>Global Impact, Local Expertise</strong>: From disruptive startups to industry giants, we fuel businesses of every scale.
                     </p>
                 </div>
+
             </div>
 
             <div className="h-dvh w-screen" id="clip">

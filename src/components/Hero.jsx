@@ -36,17 +36,14 @@ const Hero = () => {
                         {/* Sub Title (Bottom of Page) */}
                         <div className="absolute bottom-10 left-0 w-full flex justify-center">
                             <AnimatedTitle
-                                title="sta<b>r</b>tup Sol<b>u</b>tions"
-                                containerClass="text-center mt-3 max-w mx-auto text-[14px] sm:text-4xl md:text-4xl lg:text-6xl xl:text-8xl"
+                                title="Buil<b>t</b> by Entrepre<b>n</b>eurs, for Entrepre<b>n</b>eurs – M<b>a</b>de in Germ<b>a</b>ny, Tra<b>n</b>sforming Busi<b>n</b>esses World<b>w</b>ide"
+                                containerClass="text-center mt-3 max-w mx-auto text-[14px] sm:text-4xl md:text-4xl lg:text-6xl xl:text-7xl"
                             />
                         </div>
 
-                        {/* Description */}
-                        <Animate animation="fade-up" duration={1.5}>
+                        <Animate animation="fade-up" duration={1.5}><br />
                             <p className="mb-5 max-w mx-auto text-center font-robert-regular text-[13px] sm:text-sm md:text-lg lg:text-[18px] xl:text-xl text-blue-100">
-                                At Pixel Junkie Creative Studios, we’re on a mission to help businesses like yours grow, thrive, and make a lasting impact.<br />
-                                With our expertise in branding, graphic design, digital marketing, and web development, we’re here to turn your vision into reality.<br />
-                                Every project is an opportunity to learn, create, and evolve, and we’re committed to taking your brand to the next level as we grow together...
+                                Forget average. Forget ordinary. Pixel Junkie Creative Studios isn’t just another creative agency<br/>we are the architects of industry dominance.<br/> Whether you're launching a bold new startup or scaling a multinational empire, we don’t just build brands—we engineer success.
                             </p>
                         </Animate>
                     </div>

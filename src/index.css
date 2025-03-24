@@ -277,7 +277,7 @@ body {
 }
 
 .responsive-font {
-    font-size: 38px; /* Default for small screens */
+    font-size: 28px; /* Default for small screens */
 }
 
 @media (min-width: 768px) {

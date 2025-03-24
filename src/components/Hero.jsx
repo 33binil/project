@@ -1,6 +1,6 @@
 import Animate from "./Animate.jsx";
-import Loader from "./Loader";
 import AnimatedTitle from "./AnimatedTitle.jsx";
+import AnimateNormal from "./AnimateNormal.jsx";
 
 const Hero = () => {
     const getVideoSrc = () => `/videos/hero-1.mp4`;
@@ -25,18 +25,16 @@ const Hero = () => {
                     <div className="mt-28 px-5 sm:px-10">
                         {/* Main Title */}
                         <div className="w-full flex justify-center">
-                            <AnimatedTitle
-                                title="PI<b>X</b>EL JU<b>N</b>KIE crea<b>t</b>ive STU<b>D</b>IO"
-                                containerClass="text-center mt max-w mx-auto text-[14px] sm:text-4xl md:text-4xl lg:text-6xl xl:text-8xl"
+                            <AnimateNormal
+                                title="PIXEL JUNKIE CREATIVE STUDIO"
+                                containerClass="text-center mt max-w mx-auto text-2xl sm:text-6xl md:text-6xl lg:text-7xl xl:text-5xl"
                             />
                         </div>
 
-
-
                         {/* Sub Title (Bottom of Page) */}
                         <div className="absolute bottom-10 left-0 w-full flex justify-center">
-                            <AnimatedTitle
-                                title="Buil<b>t</b> by Entrepre<b>n</b>eurs, for Entrepre<b>n</b>eurs – M<b>a</b>de in Germ<b>a</b>ny, Tra<b>n</b>sforming Busi<b>n</b>esses World<b>w</b>ide"
+                            <AnimateNormal
+                                title="BUILD BY ENTERPRENEURS, FOR ENTERPRENEURS – MADE IN GRMANY, TRANSFORMING BUSSINESS WORLDWIDE"
                                 containerClass="text-center mt-3 max-w mx-auto text-[14px] sm:text-4xl md:text-4xl lg:text-6xl xl:text-7xl"
                             />
                         </div>

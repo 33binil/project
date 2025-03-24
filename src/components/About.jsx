@@ -33,7 +33,7 @@ const About = () => {
                     Welcome to Pixel Junkie creative studio
                 </p>
 
-                <AnimatedTitle
+               <AnimatedTitle
                     title="W<b>h</b>y C<b>h</b>oose Pix<b>e</b>l Ju<b>n</b>kie?"
                     containerClass="mt-5 !text-black text-center"
                 />

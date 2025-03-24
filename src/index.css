@@ -36,6 +36,8 @@ body {
         font-family: "zentry";
         src: url("/fonts/zentry-regular.woff2") format("woff2");
     }
+
+
 }
 
 @layer utilities {
@@ -273,3 +275,20 @@ body {
         opacity: 0.8;
     }
 }
+
+.responsive-font {
+    font-size: 38px; /* Default for small screens */
+}
+
+@media (min-width: 768px) {
+    .responsive-font {
+        font-size: 80px; /* Larger size for medium screens */
+    }
+}
+
+@media (min-width: 1024px) {
+    .responsive-font {
+        font-size: 74px; /* Even larger for big screens */
+    }
+}
+

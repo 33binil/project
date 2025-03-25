@@ -12,9 +12,9 @@ const Loader = ({ onComplete }) => {
 
     return (
         <div className="fixed inset-0 flex flex-col items-center justify-center bg-black z-50">
-            {/* Logo Animation */}
+
             <motion.img
-                src="img/logo.png" // Ensure the logo path is correct
+                src="img/logo.png"
                 alt="Loading Logo"
                 className="w-52 h-52"
                 initial={{ opacity: 0, scale: 0.5 }}
@@ -22,7 +22,7 @@ const Loader = ({ onComplete }) => {
                 transition={{ duration: 0.5 }}
             />
 
-            {/* Three Circles Loading Animation with Custom Colors */}
+
             <div className="mt-4 flex space-x-2">
                 {["#FF0000", "#FFFFFF", "#0000FF"].map((color, i) => (
                     <motion.div
@@ -51,7 +51,7 @@ const App = () => {
                 <Loader onComplete={() => setLoading(false)} />
             ) : (
                 <div className="text-white text-center">
-                    <h1 className="text-6xl">Welcome to the Pixel Junkie Creative Studio!</h1>
+                    <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-6xl">Welcome to the Pixel Junkie Creative Studio!</h1>
                 </div>
             )}
         </div>

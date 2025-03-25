@@ -171,8 +171,7 @@ body {
     }
 }
 
-/* From Uiverse.io by G4b413l */
-/* https://uiverse.io/G4b413l/tidy-walrus-92 */
+
 .three-body {
     --uib-size: 35px;
     --uib-speed: 0.8s;
@@ -277,18 +276,18 @@ body {
 }
 
 .responsive-font {
-    font-size: 28px; /* Default for small screens */
+    font-size: 32px;
 }
 
 @media (min-width: 768px) {
     .responsive-font {
-        font-size: 80px; /* Larger size for medium screens */
+        font-size: 80px;
     }
 }
 
 @media (min-width: 1024px) {
     .responsive-font {
-        font-size: 74px; /* Even larger for big screens */
+        font-size: 74px;
     }
 }
 

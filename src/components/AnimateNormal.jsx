@@ -1,6 +1,6 @@
 import { useRef } from "react";
 import clsx from "clsx";
-import Animate from "./Animate"; // Importing the animation component
+import Animate from "./Animate";
 
 const AnimatedTitle = ({ title, containerClass, fontSize = "32px", mdFontSize = "80px" }) => {
     const containerRef = useRef(null);
@@ -13,7 +13,7 @@ const AnimatedTitle = ({ title, containerClass, fontSize = "32px", mdFontSize = 
                         key={index}
                         className="flex-center max-w-full flex-wrap gap-2 px-5 md:gap-3 font-extrabold text-white"
                         style={{
-                            fontSize: fontSize, // Default for small screens
+                            fontSize: fontSize,
                         }}
                     >
                         {line.split(" ").map((word, idx) => (

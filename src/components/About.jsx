@@ -39,19 +39,19 @@ const About = () => {
                 />
 
                 <div className="flex flex-col items-center justify-center h-full text-center space-y-3">
-                    <p className="text-[14px] sm:text-lg md:text-xl lg:text-xl xl:text-xl">
+                    <p className="text-[15px] sm:text-lg md:text-xl lg:text-xl xl:text-xl">
                         <strong>We Create Market Leaders</strong>: Not just brands. Not just businesses. We craft legends.
                     </p>
-                    <p className="text-[14px] sm:text-lg md:text-xl lg:text-xl xl:text-xl">
+                    <p className="text-[15px] sm:text-lg md:text-xl lg:text-xl xl:text-xl">
                         <strong>All-in-One Growth Powerhouse</strong>: Branding, marketing, web, design, development—we master it all.
                     </p>
-                    <p className="text-[14px] sm:text-lg md:text-xl lg:text-xl xl:text-xl">
+                    <p className="text-[15px] sm:text-lg md:text-xl lg:text-xl xl:text-xl">
                         <strong>Innovation at Its Core</strong>: We don’t follow trends—we define them.
                     </p>
-                    <p className="text-[14px] sm:text-lg md:text-xl lg:text-xl xl:text-xl">
+                    <p className="text-[15px] sm:text-lg md:text-xl lg:text-xl xl:text-xl">
                         <strong>Precision Meets Passion</strong>: Every project is executed with relentless excellence.
                     </p>
-                    <p className="text-[14px] sm:text-lg md:text-xl lg:text-xl xl:text-xl">
+                    <p className="text-[15px] sm:text-lg md:text-xl lg:text-xl xl:text-xl">
                         <strong>Global Impact, Local Expertise</strong>: From disruptive startups to industry giants, we fuel businesses of every scale.
                     </p>
                 </div>

@@ -1,4 +1,4 @@
-import { FaDiscord, FaTwitter, FaYoutube, FaMedium, FaMailBulk, FaInstagram, FaWhatsapp } from "react-icons/fa";
+import { FaMailBulk, FaInstagram, FaWhatsapp } from "react-icons/fa";
 
 const socialLinks = [
     { href: "https://discord.com", icon: <FaMailBulk className="text-white" /> },

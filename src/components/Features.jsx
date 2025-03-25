@@ -1,6 +1,5 @@
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 export const BentoTilt = ({ children, className = "" }) => {
     return (
@@ -24,10 +23,8 @@ export const BentoCard = ({ src, title, description }) => (
 
         <div className="relative z-10 flex h-full flex-col justify-between p-5 text-white">
             <div className="mt-20">
-                {/* ✅ Title */}
                 <h1 className="bento-title">{title}</h1>
 
-                {/* ✅ Description */}
                 {description && (
                     <p className="mt-3 max-w-6xl text-[14px] sm:text-[18px] md:text-[22px] lg:text-[24px] xl:text-[26px] leading-relaxed">
                         {description}
@@ -43,30 +40,39 @@ const Features = () => {
     const features = [
         {
             src: "/videos/feature-1.mp4",
-            title: "Branding & Identity",
-            description:
-                <div className="flex flex-col items-start justify-center h-full text-left space-y-6">
-                    <p className="text-[14px] sm:text-lg md:text-xl lg:text-xl xl:text-xl">
+            title: (
+                <h2 className="text-[55px] sm:text-3xl md:text-4xl lg:text-5xl xl:text-8xl font-bold">
+                    Branding & Identity
+                </h2>
+            ),
+            description: (
+                <div className="flex flex-col items-start justify-center h-full text-left space-y-6 lg:mt-20 xl:mt-12">
+                    <p className="text-[14px] sm:text-lg md:text-xl lg:text-2xl xl:text-2xl">
                         <strong>- Unforgettable Logos & Brand Strategy</strong>
                     </p>
-                    <p className="text-[14px] sm:text-lg md:text-xl lg:text-xl xl:text-xl">
+                    <p className="text-[14px] sm:text-lg md:text-xl lg:text-2xl xl:text-2xl">
                         <strong>- Visual Identity & Market Positioning</strong>
                     </p>
-                    <p className="text-[14px] sm:text-lg md:text-xl lg:text-xl xl:text-xl">
+                    <p className="text-[14px] sm:text-lg md:text-xl lg:text-2xl xl:text-2xl">
                         <strong>- Corporate & Product Branding</strong>
                     </p>
-                    <p className="text-[14px] sm:text-lg md:text-xl lg:text-xl xl:text-xl">
+                    <p className="text-[14px] sm:text-lg md:text-xl lg:text-2xl xl:text-2xl">
                         <strong>- Packaging & Merchandise Design</strong>
                     </p>
                 </div>
 
-
+            ),
         },
+
         {
             src: "/videos/feature-3.mp4",
-            title: "Web Design & Development",
+            title: (
+                <h2 className="text-[55px] sm:text-3xl md:text-4xl lg:text-5xl xl:text-8xl font-bold">
+                    Web Design & Development
+                </h2>
+            ),
             description:
-                <div className="flex flex-col items-start justify-center h-full text-left space-y-6">
+                <div className="flex flex-col items-start justify-center h-full text-left space-y-6 lg:mt-20 xl:mt-12">
                     <p className="text-[14px] sm:text-lg md:text-xl lg:text-xl xl:text-xl">
                         <strong>- High-Performance Websites & eCommerce</strong>
                     </p>
@@ -83,9 +89,13 @@ const Features = () => {
         },
         {
             src: "/videos/feature-5.mp4",
-            title: "Digital Marketing & Strategy",
+            title: (
+                <h2 className="text-[55px] sm:text-3xl md:text-4xl lg:text-5xl xl:text-8xl font-bold">
+                    Digital Marketing & Strategy
+                </h2>
+            ),
             description:
-                <div className="flex flex-col items-start justify-center h-full text-left space-y-6">
+                <div className="flex flex-col items-start justify-center h-full text-left space-y-6 lg:mt-20 xl:mt-12">
                     <p className="text-[14px] sm:text-lg md:text-xl lg:text-xl xl:text-xl">
                         <strong>- Social Media Domination & Growth Hacking</strong>
                     </p>
@@ -101,10 +111,14 @@ const Features = () => {
                 </div>
         },
         {
-            src: "/videos/",
-            title: "App Development",
+            src: "/videos/feature-6.mp4",
+            title: (
+                <h2 className="text-[55px] sm:text-3xl md:text-4xl lg:text-5xl xl:text-8xl font-bold">
+                    App Development
+                </h2>
+            ),
             description:
-                <div className="flex flex-col items-start justify-center h-full text-left space-y-6">
+                <div className="flex flex-col items-start justify-center h-full text-left space-y-6 lg:mt-20 xl:mt-12">
                     <p className="text-[14px] sm:text-lg md:text-xl lg:text-xl xl:text-xl">
                         <strong>- iOS & Android Mobile App Development</strong>
                     </p>
@@ -121,9 +135,13 @@ const Features = () => {
         },
         {
             src: "/videos/feature-2.mp4",
-            title: "Video Production & Motion Graphics",
+            title: (
+                <h2 className="text-[55px] sm:text-3xl md:text-4xl lg:text-5xl xl:text-8xl font-bold">
+                    Video Production & Motion Graphics
+                </h2>
+            ),
             description:
-                <div className="flex flex-col items-start justify-center h-full text-left space-y-6">
+                <div className="flex flex-col items-start justify-center h-full text-left space-y-6 lg:mt-20 xl:mt-12">
                     <p className="text-[14px] sm:text-lg md:text-xl lg:text-xl xl:text-xl">
                         <strong>- High-End Commercials & Brand Films</strong>
                     </p>
@@ -140,9 +158,13 @@ const Features = () => {
         },
         {
             src: "/videos/feature-4.mp4",
-            title: "Business Consulting & Scaling Solutions",
+            title: (
+                <h2 className="text-[55px] sm:text-3xl md:text-4xl lg:text-5xl xl:text-8xl font-bold">
+                    Business Consulting & Scaling Solutions
+                </h2>
+            ),
             description:
-                <div className="flex flex-col items-start justify-center h-full text-left space-y-6">
+                <div className="flex flex-col items-start justify-center h-full text-left space-y-6 lg:mt-20 xl:mt-12">
                     <p className="text-[14px] sm:text-lg md:text-xl lg:text-xl xl:text-xl">
                         <strong>- Startup & Growth Acceleration Strategies</strong>
                     </p>

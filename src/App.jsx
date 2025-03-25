@@ -7,6 +7,9 @@ import Features from "./components/Features";
 import Story from "./components/Story";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Brands from "./components/Brands";
+import Storys from "./components/Storys";
+import Statement from "./components/Statement";
 
 function App() {
     const [loading, setLoading] = useState(true);
@@ -26,7 +29,10 @@ function App() {
                     <Hero />
                     <About />
                     <Features />
+                    <Brands />
+                    <Storys />
                     <Story />
+                    <Statement />
                     <Contact />
                     <Footer />
                 </>

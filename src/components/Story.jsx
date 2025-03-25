@@ -48,11 +48,11 @@ const FloatingImage = () => {
         <div id="story" className="min-h-dvh w-screen bg-black text-blue-50 flex flex-col items-center justify-center">
 
             <AnimatedTitle
-                title="Pix<b>e</b>l ju<b>n</b>kie cre<b>a</b>tive stu<b>d</b>io"
+                title="L<b>e</b>t’s Build Somet<b>h</b>ing Legend<b>a</b>ry"
                 containerClass="mt-5 pointer-events-none mix-blend-difference relative z-10"
             />
 
-            {/* ✅ Video Container (without border) */}
+
             <div className="relative mt-10 w-[90vw] max-w-[800px] h-[50vw] max-h-[450px] sm:h-[350px] md:h-[400px] lg:h-[450px] rounded-lg overflow-hidden">
                 <video
                     ref={frameRef}
@@ -69,11 +69,11 @@ const FloatingImage = () => {
             </div>
 
 
-            <div className="mt-5 max-w-sm text-center font-circular-web text-violet-50">
-                <p>
-                    At Pixel Junkie Creative Studio, We Craft Masterpiece Brands with Expertise in Design, Branding, Digital Marketing and Web Development. Our Mission is to turn ideas into Powerful, Unforgetteble Experiences that Elevate your Brand and Inspire Impact
-                </p>
-
+            <div className="mt-5 max-w text-center font-circular-web text-violet-50 text-[16px] sm:text-[18px] md:text-[22px] lg:text-[28px]">
+                <p>Enquiries & Collaborations</p>
+                <p>Your competitors are already behind.</p>
+                <p>Don’t wait.</p>
+                <p>Ready to Level Up?</p>
             </div>
         </div>
     );

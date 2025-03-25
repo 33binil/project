@@ -1,5 +1,4 @@
 import Animate from "./Animate.jsx";
-import AnimatedTitle from "./AnimatedTitle.jsx";
 import AnimateNormal from "./AnimateNormal.jsx";
 
 const Hero = () => {
@@ -40,7 +39,7 @@ const Hero = () => {
                         </div>
 
                         <Animate animation="fade-up" duration={1.5}><br />
-                            <p className="mb-5 max-w mx-auto text-center font-robert-regular text-[12px] sm:text-s md:text-lg lg:text-[18px] xl:text-xl text-blue-100">
+                            <p className="mb-5 max-w mx-auto text-center font-robert-regular text-[13px] sm:text-s md:text-lg lg:text-[18px] xl:text-xl text-blue-100">
                                 Forget average. Forget ordinary. Pixel Junkie Creative Studios isn’t just another creative agency<br/>we are the architects of industry dominance.<br/> Whether you're launching a bold new startup or scaling a multinational empire, we don’t just build brands—we engineer success.
                             </p>
                         </Animate>

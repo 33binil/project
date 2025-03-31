@@ -33,7 +33,7 @@ const Hero = () => {
                         {/* Sub Title (Bottom of Page) */}
                         <div className="absolute bottom-10 left-0 w-full flex justify-center">
                             <AnimateNormal
-                                title="BUILD BY ENTERPRENEURS, FOR ENTERPRENEURS – MADE IN GRMANY, TRANSFORMING BUSSINESS WORLDWIDE"
+                                title="BUILT BY ENTERPRENEURS, FOR ENTERPRENEURS – MADE IN GRMANY, TRANSFORMING BUSSINESS WORLDWIDE"
                                 containerClass="text-center mt-3 max-w mx-auto text-[14px] sm:text-4xl md:text-4xl lg:text-6xl xl:text-7xl"
                             />
                         </div>

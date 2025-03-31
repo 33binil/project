@@ -2,8 +2,8 @@ import { FaMailBulk, FaInstagram, FaWhatsapp } from "react-icons/fa";
 
 const socialLinks = [
     { href: "https://discord.com", icon: <FaMailBulk className="text-white" /> },
-    { href: "https://instagram.com", icon: <FaInstagram className="text-white" /> },
-    { href: "https://whatsapp.com", icon: <FaWhatsapp className="text-white" /> },
+    { href: "https://www.instagram.com/pixeljunkiestudio.in?igsh=bmtvZmI3cWdqZzE2", icon: <FaInstagram className="text-white" /> },
+    { href: "https://wa.me/+918921318291?text=Hello", icon: <FaWhatsapp className="text-white" /> },
 ];
 
 const Footer = () => {

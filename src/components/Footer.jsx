@@ -1,9 +1,10 @@
 import { FaMailBulk, FaInstagram, FaWhatsapp } from "react-icons/fa";
 
 const socialLinks = [
-    { href: "https://discord.com", icon: <FaMailBulk className="text-white" /> },
+    { href: "mailto:business@pixeljunkiestudio.in?subject=Inquiry%20from%20Pixel%20Junkie%20Website&body=Hi%20Pixel%20Junkie%20Team,%0A%0AI%20just%20came%20across%20your%20website%20and%20was%20really%20impressed!%20I’d%20love%20to%20learn%20more%20about%20your%20services%20and%20how%20you%20can%20help%20with%20my%20branding,%20design,%20or%20digital%20marketing%20needs.%0A%0ALooking%20forward%20to%20your%20response!%0A%0ABest,%0A%5BYour%20Name%5D%0A%5BYour%20Contact%20Information%5D%20(Optional)",
+        icon: <FaMailBulk className="text-white" />  },
     { href: "https://www.instagram.com/pixeljunkiestudio.in?igsh=bmtvZmI3cWdqZzE2", icon: <FaInstagram className="text-white" /> },
-    { href: "https://wa.me/+918921318291?text=Hello", icon: <FaWhatsapp className="text-white" /> },
+    { href: "https://wa.me/+918921318291?text=Hey Pixel Junkie Team! I just visited your website and loved what I saw. I’d love to discuss how you can help with my branding, design, or digital marketing needs. Let’s chat!", icon: <FaWhatsapp className="text-white" /> },
 ];
 
 const Footer = () => {

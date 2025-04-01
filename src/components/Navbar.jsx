@@ -23,7 +23,6 @@ const NavBar = () => {
         setLastScrollY(currentScrollY);
     }, [currentScrollY, lastScrollY]);
 
-    // ✅ Scroll Function
     const handleScrollToSection = (id) => (e) => {
         e.preventDefault();
         const section = document.getElementById(id);
@@ -39,12 +38,10 @@ const NavBar = () => {
         >
             <header className="absolute top-1/2 w-full -translate-y-1/2">
                 <nav className="flex size-full items-center justify-between p-4">
-                    {/* Logo */}
                     <div className="flex items-center gap-7">
                         <img src="/img/logo.png" alt="logo" className="w-10" />
                     </div>
 
-                    {/* Navigation Links */}
                     <div className="flex h-full items-center">
                         <div className="hidden md:block">
                             {navItems.map((item, index) => (

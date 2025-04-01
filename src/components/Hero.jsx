@@ -21,19 +21,19 @@ const Hero = () => {
 
                 {/* Content Layer */}
                 <div className="absolute left-0 top-0 z-40 size-full">
-                    <div className="mt-28 px-5 sm:px-10">
+                    <div className="mt-5 px-5 sm:px-10">
                         {/* Main Title */}
-                        <div className="w-full flex justify-center">
+                        <div className="w-full flex justify-center mt-5 sm:mt-32">
                             <AnimateNormal
                                 title="PIXEL JUNKIE CREATIVE STUDIO"
-                                containerClass="text-center mt max-w mx-auto text-2xl sm:text-6xl md:text-6xl lg:text-7xl xl:text-5xl"
+                                containerClass="text-center max-w mx-auto text-2xl sm:text-6xl md:text-6xl lg:text-7xl xl:text-5xl"
                             />
                         </div>
 
                         {/* Sub Title (Bottom of Page) */}
                         <div className="absolute bottom-10 left-0 w-full flex justify-center">
                             <AnimateNormal
-                                title="BUILT BY ENTERPRENEURS, FOR ENTERPRENEURS – MADE IN GRMANY, TRANSFORMING BUSSINESS WORLDWIDE"
+                                title="BUILT BY ENTERPRENEURS, FOR ENTERPRENEURS – MADE IN GERMANY, TRANSFORMING BUSINESS WORLDWIDE"
                                 containerClass="text-center mt-3 max-w mx-auto text-[14px] sm:text-4xl md:text-4xl lg:text-6xl xl:text-7xl"
                             />
                         </div>

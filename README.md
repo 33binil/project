@@ -1,17 +1,44 @@
-# Front-end web design 
+# Pixel Junkie Creative Studios
 
-## Objective
-Create visually appealing, responsive, and user-friendly website that enhance user engagement and accessibility. Design and implement intuitive UI/UX components that provide seamless navigation and a great user experience across all devices.
+Welcome to the official website of **Pixel Junkie Creative Studios** – a creative agency that brings ideas to life through design, development, and innovation.
 
-### Skills Learned
+🚀 This was my very first freelance project, fully designed and developed by me using **React (Vite)** and **Tailwind CSS**. The website is fully responsive and includes smooth scroll-triggered animations for an engaging user experience.
 
-- UI/UX Design
-- Vite React 
-- Tailwind css 
-  
+🔗 **Live Website:** [pixeljunkiestudio.in](https://pixeljunkiestudio.in)
 
-### Tools Used
+---
 
-- **Web Storm** for create HTML,CSS,JSX, Files.
-- **Freepik Website** for downloading the images,videos used in the website.
+## ✨ Features
+
+- 🎨 Sleek and modern UI/UX
+- 💡 Responsive design for all devices
+- ⚡ Smooth animations using CSS & IntersectionObserver
+- 🌐 SEO-friendly structure
+- 🧭 Easy navigation with smooth scroll behavior
+- 🔊 Hosted using [Verbal](https://vercel.com)
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** Vite + React
+- **Styling:** Tailwind CSS
+- **Animation:** Custom CSS Animations
+- **Deployment:** Vercel
+
+---
+
+
+## 🧠 What I Learned
+
+- Client communication and requirement gathering
+- Responsive design principles using Tailwind CSS
+- Using custom animations to enhance user engagement
+- Hosting and deployment via Vercel
+
+---
+
+
+> “Design is intelligence made visible.” – Alina Wheeler  
+> This project marks the beginning of my creative tech journey 🚀
 
